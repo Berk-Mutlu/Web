@@ -15,6 +15,7 @@ function Rating({ rating }) {
   // Boş yıldızları ekle (5'e tamamlamak için)
   // Örn: rating = 3 ise, 2 boş yıldız eklenir (toplam 5 yıldız)
   for (let i = rating; i < 5; i++) {
+    
     stars.push(
       <span className="glyphicon glyphicon-star-empty" key={i}>
         {" "}
