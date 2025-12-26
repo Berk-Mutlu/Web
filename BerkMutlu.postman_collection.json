@@ -1,9 +1,11 @@
 {
 	"info": {
-		"_postman_id": "44219a1b-ae96-4611-b0e3-1a9ecbff38e0",
-		"name": "Mekanbul API",
+		"_postman_id": "7b84fc37-1ef1-4bbf-bff5-060b1b2da579",
+		"name": "BerkMutlu",
 		"description": "Mekanbul projesi için güncellenmiş API test koleksiyonu (Otomatik Yazar İsimli).",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "50542645",
+		"_collection_link": "https://iam-berkmutlu-4976617.postman.co/workspace/Berk-Mutlu's-Workspace~791e5ca6-c864-46d0-8f4b-591be25f3644/collection/50542645-7b84fc37-1ef1-4bbf-bff5-060b1b2da579?action=share&source=collection_link&creator=50542645"
 	},
 	"item": [
 		{
@@ -19,12 +21,12 @@
 							"urlencoded": [
 								{
 									"key": "name",
-									"value": "Test Admin",
+									"value": "Berk",
 									"type": "text"
 								},
 								{
 									"key": "email",
-									"value": "admin@test.com",
+									"value": "berk@test.com",
 									"type": "text"
 								},
 								{
@@ -67,7 +69,9 @@
 									"    }",
 									"}"
 								],
-								"type": "text/javascript"
+								"type": "text/javascript",
+								"packages": {},
+								"requests": {}
 							}
 						}
 					],
@@ -79,7 +83,7 @@
 							"urlencoded": [
 								{
 									"key": "email",
-									"value": "admin@test.com",
+									"value": "berk@test.com",
 									"type": "text"
 								},
 								{
@@ -147,7 +151,9 @@
 									"    pm.environment.set(\"venueid\", jsonData._id);",
 									"}"
 								],
-								"type": "text/javascript"
+								"type": "text/javascript",
+								"packages": {},
+								"requests": {}
 							}
 						}
 					],
@@ -169,27 +175,27 @@
 							"urlencoded": [
 								{
 									"key": "name",
-									"value": "Test Mekan",
+									"value": "Antre Kitchen Cadde",
 									"type": "text"
 								},
 								{
 									"key": "address",
-									"value": "Test Adresi 123",
+									"value": "Bahçelievler, Ertokuş Cd. No:3, 32000 Isparta Merkez/Isparta",
 									"type": "text"
 								},
 								{
 									"key": "foodanddrink",
-									"value": "Kahve,Çay,Kek",
+									"value": "Fine Dining",
 									"type": "text"
 								},
 								{
 									"key": "coordinates[0]",
-									"value": "35",
+									"value": "37.78233701527106",
 									"type": "text"
 								},
 								{
 									"key": "coordinates[1]",
-									"value": "37",
+									"value": "30.544602271164234",
 									"type": "text"
 								},
 								{
@@ -199,12 +205,12 @@
 								},
 								{
 									"key": "hours[0][open]",
-									"value": "09:00",
+									"value": "08:00",
 									"type": "text"
 								},
 								{
 									"key": "hours[0][close]",
-									"value": "18:00",
+									"value": "23:30",
 									"type": "text"
 								},
 								{
@@ -219,12 +225,12 @@
 								},
 								{
 									"key": "hours[1][open]",
-									"value": "10:00",
+									"value": "08:00",
 									"type": "text"
 								},
 								{
 									"key": "hours[1][close]",
-									"value": "22:00",
+									"value": "23:30",
 									"type": "text"
 								},
 								{
@@ -286,42 +292,42 @@
 							"urlencoded": [
 								{
 									"key": "name",
-									"value": "Test Mekan (Güncel)",
+									"value": "Antre Kitchen Cadde",
 									"type": "text"
 								},
 								{
 									"key": "address",
-									"value": "Yeni Adres 456",
+									"value": "Bahçelievler, Ertokuş Cd. No:3, 32000 Isparta Merkez/Isparta",
 									"type": "text"
 								},
 								{
 									"key": "foodanddrink",
-									"value": "Kahve,Tatlı",
+									"value": "Fine Dining",
 									"type": "text"
 								},
 								{
 									"key": "coordinates[0]",
-									"value": "35.1",
+									"value": "37.78233701527106",
 									"type": "text"
 								},
 								{
 									"key": "coordinates[1]",
-									"value": "37.1",
+									"value": "30.544602271164234",
 									"type": "text"
 								},
 								{
 									"key": "hours[0][days]",
-									"value": "Hafta İçi",
+									"value": "Kapalı",
 									"type": "text"
 								},
 								{
 									"key": "hours[0][open]",
-									"value": "08:00",
+									"value": "00:00",
 									"type": "text"
 								},
 								{
 									"key": "hours[0][close]",
-									"value": "20:00",
+									"value": "00:00",
 									"type": "text"
 								},
 								{
@@ -391,7 +397,9 @@
 									"    pm.environment.set(\"commentid\", jsonData._id);",
 									"}"
 								],
-								"type": "text/javascript"
+								"type": "text/javascript",
+								"packages": {},
+								"requests": {}
 							}
 						}
 					],
@@ -413,12 +421,12 @@
 							"urlencoded": [
 								{
 									"key": "rating",
-									"value": "5",
+									"value": "3",
 									"type": "text"
 								},
 								{
 									"key": "text",
-									"value": "Harika bir yer! (Otomatik isim testi)",
+									"value": "Ürün kalitesi ve lezzet oldukça ortalama",
 									"type": "text"
 								}
 							]
@@ -479,17 +487,17 @@
 							"urlencoded": [
 								{
 									"key": "author",
-									"value": "Test Kullanıcı",
+									"value": "Berk",
 									"type": "text"
 								},
 								{
 									"key": "rating",
-									"value": "4",
+									"value": "1",
 									"type": "text"
 								},
 								{
 									"key": "text",
-									"value": "Fena değil, güncellendi.",
+									"value": "Kötü.",
 									"type": "text"
 								}
 							]
